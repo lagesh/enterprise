@@ -11,6 +11,11 @@ font-family: 'Roboto', sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
+h2,
+p {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
 
 /* header */
 
@@ -20,7 +25,7 @@ header nav {
   align-items: center;
   padding: 20px 50px;
   background-color: rgb(15, 14, 14);
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   z-index: 2;
   font-family: 'Cabin', sans-serif;
@@ -44,4 +49,32 @@ a:hover {
 }
 .logo a:hover {
   color: #fff;
+}
+.banner {
+  background-image: url(./images/yaopey-yong-38s1p9iW9Mk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 80vh;
+  text-align: center;
+  padding-top: 90px;
+}
+.box {
+  background-color: rgb(68, 131, 214);
+  width: 35%;
+  height: 25%;
+  margin: auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  bottom: -70%;
+  color: rgb(255, 255, 255);
+}
+.box h2 {
+  padding-top: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
