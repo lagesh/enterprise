@@ -11,10 +11,12 @@ font-family: 'Roboto', sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
-h2,
+h2 {
+  font-family: 'Cabin', sans-serif;
+  display: block;
+}
 p {
   font-family: 'Roboto', sans-serif;
-  display: block;
 }
 
 /* header */
@@ -77,4 +79,19 @@ a:hover {
   padding-top: 2rem;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+/* body styling */
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio {
+  margin: 50px auto;
+}
+.portfolio h2 {
+  margin-bottom: 20px;
 }
