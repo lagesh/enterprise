@@ -89,9 +89,59 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
+
+/*portfolio section*/
+
 .portfolio {
   margin: 50px auto;
 }
 .portfolio h2 {
   margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.card .image {
+  height: 80%;
+  width: 100%;
+}
+.aero {
+  background-image: url(./images/david-b-6CIIuaV-d58-unsplash.jpg);
+}
+.auto {
+  background-image: url(./images/louis-tricot-rHk5uvsnCn4-unsplash.jpg);
+}
+.lane {
+  background-image: url(./images/ken-huang-Cf8DAC9dm-U-unsplash.jpg);
+}
+.tiger {
+  background-image: url(./images/imthaz-ahamed-vVLrfAzmWYw-unsplash.jpg);
+}
+.train {
+  background-image: url(./images/markus-winkler-1ZQ8WUWselo-unsplash.jpg);
+}
+.valet {
+  background-image: url(./images/frank-mckenna-Ap6t4U-VIqw-unsplash.jpg);
+}
+.aero,
+.auto,
+.lane,
+.tiger,
+.train,
+.valet {
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  padding: 20px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3rem;
 }
