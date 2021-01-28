@@ -102,7 +102,6 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   margin-top: 2rem;
 }
 .card {
@@ -152,14 +151,15 @@ a:hover {
   text-align: center;
 }
 .teambg {
-  background-image: url(./images/jj-ying-7JX0-bfiuxQ-unsplash.jpg);
-  height: 70vh;
+  background-color: rgb(207, 207, 207);
+  height: 70%;
+  padding: 2%;
 }
 
 .teamcard {
   width: 320px;
   height: 600px;
-  margin: 75px 10px;
+  margin: 50px 10px;
 }
 .teamimage {
   height: 70%;
@@ -188,3 +188,15 @@ a:hover {
 }
 
 /*footer*/
+footer {
+  text-align: center;
+  padding: 2.5rem;
+  color: #fff;
+  background-color: #000;
+  display: block;
+}
+footer p {
+  font-size: 0.75rem;
+  margin: 0.8rem;
+  letter-spacing: 2px;
+}
